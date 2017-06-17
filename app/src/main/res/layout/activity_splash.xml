@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sherly.lightchecker.SplashScreen">
+    tools:context="com.example.sherly.lightchecker.SplashActivity">
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -13,11 +13,7 @@
         android:src="@drawable/lamp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-<<<<<<< HEAD
-        android:layout_marginTop="165dp" />
-=======
         android:layout_marginTop="200dp" />
->>>>>>> ba4d3ce64a37e6dbaa5d0e5d50232abdeab39c77
 
     <TextView
         android:layout_width="fill_parent"
