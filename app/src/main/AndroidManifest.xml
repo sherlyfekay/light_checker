@@ -8,18 +8,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/lamp"
+        android:icon="@drawable/lampu"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/lampu"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
 
         <activity android:name=".SplashActivity"
-=======
-        <activity
-            android:name=".SplashActivity"
->>>>>>> 0bc8724f2d30817f30abc31a6141460c15a7af78
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity" android:label="Room Categories"/>
         <activity android:name=".WelcomeActivity"></activity>
     </application>
 

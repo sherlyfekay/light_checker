@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:fontFamily="sans-serif-medium"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
         android:text="Welcome to Light Sensor"
         android:layout_above="@+id/brightday"
         android:layout_centerHorizontal="true" />
@@ -32,7 +32,7 @@
         android:layout_margin="10dp"
         android:textSize="18dp"
         android:fontFamily="sans-serif"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
         android:letterSpacing="0.2"
         android:text="Have a bright day !"
         android:layout_centerInParent="true" />
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/brightday"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:text="GET STARTED"
         android:backgroundTint="@color/colorPrimary"
         android:padding="16dp"
