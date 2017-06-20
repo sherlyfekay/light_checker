@@ -21,7 +21,7 @@
         android:textSize="20dp"
         android:fontFamily="sans-serif-medium"
         android:textColor="@color/colorPrimaryDark"
-        android:text="Welcome to Light Sensor"
+        android:text="Welcome to Light Checker"
         android:layout_above="@+id/brightday"
         android:layout_centerHorizontal="true" />
 

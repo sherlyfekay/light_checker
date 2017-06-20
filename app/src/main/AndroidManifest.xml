@@ -8,9 +8,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/lampu"
+        android:icon="@drawable/lamp"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/lampu"
+        android:roundIcon="@drawable/lamp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
