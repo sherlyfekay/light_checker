@@ -11,6 +11,10 @@ public class LightLevelModel {
     private int light_max;
     private int type;
 
+    public LightLevelModel(String area) {
+        this.area = area;
+    }
+
     public LightLevelModel(int id, String area, int light_min, int light_max, int type) {
         this.id = id;
         this.area = area;
