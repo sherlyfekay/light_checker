@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl1"
+    tools:context="com.example.sherly.lightchecker.Information">
 
     <ImageView
         android:id="@+id/imageinformation"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/lamp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/normal"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"/>
 
@@ -16,17 +19,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp"
+        android:layout_below="@+id/imageinformation"
+        android:layout_marginTop="20dp"
         android:text="CAHAYA KURANG"
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/statuscahaya"
+        android:layout_marginTop="10dp"
+        android:text="The light is too bright"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/currentlight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="340dp"
+        android:layout_below="@+id/tvInfo"
+        android:layout_marginTop="20dp"
         android:text="Current Light : "
         android:textSize="18sp" />
 
@@ -35,7 +50,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="380dp"
+        android:layout_below="@+id/currentlight"
+        android:layout_marginTop="15dp"
         android:text="Required Light : "
         android:textSize="18sp" />
 

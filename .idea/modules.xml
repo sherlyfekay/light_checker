@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LightChecker.iml" filepath="$PROJECT_DIR$/LightChecker.iml" />
       <module fileurl="file://$PROJECT_DIR$/Room Light Checker.iml" filepath="$PROJECT_DIR$/Room Light Checker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

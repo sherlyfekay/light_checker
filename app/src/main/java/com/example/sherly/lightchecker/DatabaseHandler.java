@@ -248,7 +248,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         return data;
     }
 
-    //Membaca semua data lightlevel
+    //Membaca area data lightlevel dari type
     public ArrayList<LightLevelModel> readLightLevelType(Integer type){
         SQLiteDatabase db = this.getReadableDatabase();
         ArrayList<LightLevelModel> data = new ArrayList<LightLevelModel>();
@@ -256,6 +256,19 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         for (int cc=0; cc<cur.getCount();cc++){
             cur.moveToPosition(cc);
             data.add(new LightLevelModel(cur.getString(0)));
+        }
+        db.close();
+        return data;
+    }
+
+    //Membaca data max min lightlevel dari area
+    public ArrayList<LightLevelModel> readMinMaxLight(String area){
+        SQLiteDatabase db = this.getReadableDatabase();
+        ArrayList<LightLevelModel> data = new ArrayList<LightLevelModel>();
+        Cursor cur = db.query(TABLE_NAME,new String[]{LIGHT_MIN, LIGHT_MAX},AREA+"= '"+area+"'",null,null,null,null);
+        for (int cc=0; cc<cur.getCount();cc++){
+            cur.moveToPosition(cc);
+            data.add(new LightLevelModel(Integer.parseInt(cur.getString(0)), Integer.parseInt(cur.getString(1))));
         }
         db.close();
         return data;
