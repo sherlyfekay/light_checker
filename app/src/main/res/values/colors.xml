@@ -6,4 +6,10 @@
     <color name="colorDim">#EF5350</color>
     <color name="colorNormal">#EF9A9A</color>
     <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="color1">#004D40</color>
+    <color name="color2">#0091EA</color>
+    <color name="color3">#FFC107</color>
+    <color name="color4">#757575</color>
+    <color name="color5">#FFE082</color>
 </resources>

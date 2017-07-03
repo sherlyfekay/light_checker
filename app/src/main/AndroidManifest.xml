@@ -22,7 +22,8 @@
             android:name=".MainActivity"
             android:label="Room Categories" />
         <activity android:name=".WelcomeActivity" />
-        <activity android:name=".Information"></activity>
+        <activity android:name=".Information" />
+        <activity android:name=".AboutActivity"></activity>
     </application>
 
 </manifest>

@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/rl1"
+    android:background="@color/color4"
     tools:context="com.example.sherly.lightchecker.Information">
 
     <ImageView
         android:id="@+id/imageinformation"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/normal"
+        android:src="@drawable/dim"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"/>
 
@@ -21,7 +22,6 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/imageinformation"
         android:layout_marginTop="20dp"
-        android:text="CAHAYA KURANG"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -32,7 +32,6 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/statuscahaya"
         android:layout_marginTop="10dp"
-        android:text="The light is too bright"
         android:textSize="18sp" />
 
     <TextView
@@ -42,7 +41,6 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tvInfo"
         android:layout_marginTop="20dp"
-        android:text="Current Light : "
         android:textSize="18sp" />
 
     <TextView
@@ -52,7 +50,6 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/currentlight"
         android:layout_marginTop="15dp"
-        android:text="Required Light : "
         android:textSize="18sp" />
 
 </RelativeLayout>

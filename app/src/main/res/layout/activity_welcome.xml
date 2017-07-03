@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:fontFamily="sans-serif-medium"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/color1"
         android:text="Welcome to Light Checker"
         android:layout_above="@+id/brightday"
         android:layout_centerHorizontal="true" />
@@ -32,7 +32,7 @@
         android:layout_margin="10dp"
         android:textSize="18dp"
         android:fontFamily="sans-serif"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/color3"
         android:letterSpacing="0.2"
         android:text="Have a bright day !"
         android:layout_centerInParent="true" />

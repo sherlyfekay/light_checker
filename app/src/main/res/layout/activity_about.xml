@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNormal"
+    tools:context="com.example.sherly.lightchecker.AboutActivity">
+
+    <TextView
+        android:id="@+id/tvLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Checker"
+        android:layout_above="@+id/tvVersion"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:letterSpacing="0.1"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0.0"
+        android:layout_above="@id/icon"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif" />
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/lamp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tvCenter"/>
+
+    <TextView
+        android:id="@+id/tvCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/sherly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sherly Febrina Luhukay (2103151035)"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/tvCenter"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/lina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lina Meritha (2103151037)"
+        android:layout_margin="2dp"
+        android:layout_below="@+id/sherly"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Rights Reserved."
+        android:layout_margin="10dp"
+        android:layout_below="@+id/lina"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif" />
+
+
+</RelativeLayout>
